@@ -1,7 +1,6 @@
 import { ScoresProtocolClient } from "./ScoresProtocolClient";
 import { ScoresClient } from "../../protoFiles/proto/ScoreServiceClientPb";
 import { Interval } from "../../protoFiles/proto/score_pb";
-// import { TableDataType } from "@/types/TableDataType";
 
 export class ScoresProtocol {
   private HOST = "http://localhost:8080/"; // the address where envoy proxy is running
